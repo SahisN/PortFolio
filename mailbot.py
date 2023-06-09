@@ -5,7 +5,7 @@ import os
 
 # A emailing bot that can perform various email related tasks
 class MailBot:
-    sender = "jarvismark01v@gmail.com"
+    sender = "jarvismark@gmail.com"
     credential = os.environ.get("PASSWORD")
 
     def __init__(self, receiver, subject, content):
